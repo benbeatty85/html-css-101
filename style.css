@@ -251,3 +251,39 @@ footer ul li a {
 footer ul li a:hover {
     color: green;
 }
+
+
+/*Media Queries*/
+
+@media only screen and (max-width: 641px) {
+.header-center {
+    width: 100%;
+}
+
+.icon-style {
+    background-size: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.icon-style i {
+    font-size: 15px;
+    align-items: center;
+}
+
+.head-para {
+    width: 200px;
+}
+}
+
+@media only screen and (max-width: 1025px) {
+.header-center {
+    width: 50%;
+}
+
+.head-para {
+    margin-right: 150px;
+}
+
+
+}
