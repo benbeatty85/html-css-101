@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+/*header*/
+
+.header {
+    background-image: url(pics/cell.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 100%;
+    height: 450px;
+    background-attachment: fixed;
+    position: relative;
+    border-top: 8px solid rgba(0, 255, 0, 0.7);
+}
+
+.header-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    margin-left: 50px;
+}
+
+.title {
+    font-family: 'Pacifico', sans-serif;
+    color: #fff;
+    font-size: 45px;
+}
+
+.title span {
+    color: rgba(0, 255, 0, 0.7);
+    font-size: 40px;
+}
+
+.head-para {
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    word-spacing: 2px;
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+.icons-list {
+    display: flex;
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+.icons-list i {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    border: 1x solid grey;
+    padding: 10px; 
+}
+
+.icons-list i:hover {
+    background-color: rgba(0, 255, 0, 0.7);
+}
+
+.icons-list a:link .fa, .icons-list a:visited .fa {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.icon-one {
+    padding-right: 10px;
+}
+
+.icon-two {
+    padding-right: 10px;
+}
+
+/*We Do Section*/
+
+.we-do {
+    font-family: 'Noto Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 35px 55px 35px 55px;
+    text-align: center;
+}
+
+.we-do i {
+    background-color: rgba(0, 255, 0, 0.7);
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px; 
+    color: #fff;
+    font-size: 25px;
+}
+
+.body-text h2 {
+    font-size: 15px;
+    padding: 15px;
+}
+
+.we-do p {
+    font-size: 12px;
+}
+
+.body-text {
+   margin-right: 50px; 
+}
+
+/*middle section*/
+
+.middle {
+    background-color: #D3D3D3;
+    display: flex;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: capitalize;
+}
+
+.middle h2 {
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+
+.middle p {
+    font-size: 12px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+    line-height: 2;
+}
+
+.contact {
+    padding: 50px 50px 100px 50px;
+    margin-left: 75px;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type=text] {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+
+.button {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: rgba(0, 255, 0, 0.7);
+    width: 100px;
+    cursor: pointer;
+    color: #fff;
+}
+
+video {
+    margin-right: 150px;
+}
+
+/*People section*/
+
+.quote {
+    padding: 40px;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+}
+
+.name {
+    font-weight: bold;
+    padding-top: 20px;
+    font-size: 15px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.small-img {
+    padding-right: 3px;
+}
+
+.say-hi {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    padding-top: 30px;
+}
+
+.say-hi h2 {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.say-hi p {
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+.icons ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+    padding-top: 35px;
+}
+
+.icons ul li a {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px; 
+}
+
+.icons ul li a:hover {
+    background-color: rgba(0, 255, 0, 0.7);
+}
+
+.icons ul li a:link .fa, .icons ul li a:visited .fa {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.icon-one {
+    padding-right: 10px;
+}
+
+.icon-two {
+    padding-right: 10px;
+}
+
+.icon-three {
+    padding-right: 10px;
+}
+
+.icon-four {
+    padding-right: 10px;
+}
+
+.icon-five {
+    padding-right: 10px;
+}
+
+/*Footer section*/
+
+.footer-list {
+    background-color: #D3D3D3;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    list-style-type: none;
+    
+}
+
+footer ul li {
+    padding-right: 20px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer ul li a:hover {
+    color: rgba(0, 255, 0, 0.7);
+}
