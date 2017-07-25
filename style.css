@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 a {
     color: #fff;
 }
@@ -90,7 +94,6 @@ a {
     font-family: 'Noto Sans', sans-serif;
     display: flex;
     justify-content: center;
-    flex-direction: row;
     align-items: center;
     padding: 35px 55px 35px 55px;
     text-align: center;
@@ -99,8 +102,8 @@ a {
 .we-do i {
     background-color: rgba(0, 255, 0, 0.8);
     border-radius: 50%;
-    border: 1x solid grey;
-    padding: 10px; 
+    border: 1px solid grey;
+    padding: 10px;
     color: #fff;
     font-size: 25px;
 }
@@ -123,8 +126,11 @@ a {
 .middle {
     background-color: #D3D3D3;
     display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Noto Sans', sans-serif;
     text-transform: capitalize;
+    width: 100%;
 }
 
 .middle h2 {
@@ -141,7 +147,6 @@ a {
 
 .contact {
     padding: 50px 50px 100px 50px;
-    margin-left: 75px;
 }
 
 .form {
@@ -170,7 +175,6 @@ input[type=text] {
 video {
     margin-right: 150px;
     border: 5px solid #fdf9f9;
-    margin-top: 50px;
     border-radius: 5px;
 }
 
@@ -192,6 +196,7 @@ video {
 .images {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .small-img {
@@ -255,6 +260,13 @@ footer ul li a:hover {
 
 /*Media Queries*/
 
+@media only screen and (max-width: 400px) {
+    video {
+    margin-left: 150px;
+}
+
+}
+
 @media only screen and (max-width: 641px) {
 .header-center {
     width: 100%;
@@ -274,15 +286,70 @@ footer ul li a:hover {
 .head-para {
     width: 200px;
 }
+
+.icons {
+    flex-wrap: wrap;
 }
 
+footer ul {
+    flex-direction: column;
+    text-align: center;
+}
+
+footer ul li {
+    margin-top: 10px;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+
+.middle h2 {
+    font-size: 15px;
+}
+
+.middle p {
+    font-size: 10px;
+}
+
+}
+
+
+
 @media only screen and (max-width: 1025px) {
+
+.we-do {   
+    flex-direction: column; 
+    }
+.design {
+    padding-top: 25px;
+}
+
+.reach {
+    padding-top: 25px;
+}
+
 .header-center {
     width: 50%;
 }
 
 .head-para {
     margin-right: 150px;
+}
+
+.middle {
+    flex-direction: column;
+}
+
+.contact {
+    order: 2;
+}
+
+ video {
+    order: 1;
+    margin-top: 80px
+    
 }
 
 
