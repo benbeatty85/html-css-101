@@ -4,7 +4,8 @@
   <title>Notify</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Pacifico" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="lightbox.min.css">
 </head>
     <body>
 
@@ -81,27 +82,15 @@
                 <p>"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet."</p>
                 <p class="name">Ben Beatty</p>
             </div>
-            <div class="images">
-                <img src="pics/barcelona.jpg" class="twenty small-img" alt="barcelona">
-                <img src="pics/beach.jpg" class="one small-img" alt="beach">
-                <img src="pics/bridge.jpg" class="two small-img" alt="bridge">
-                <img src="pics/car.jpg" class="three small-img" alt="car">
-                <img src="pics/dance.jpg" class="four small-img" alt="dance">
-                <img src="pics/elephant.jpg" class="five small-img" alt="elephant">
-                <img src="pics/faces.jpg" class="six small-img" alt="faces">
-                <img src="pics/flowers.jpg" class="seven small-img" alt="flowers">
-                <img src="pics/girl.jpg" class="eight small-img" alt="girl">
-                <img src="pics/graffiti.jpg" class="nine small-img" alt="graffiti">
-                <img src="pics/grove.jpg" class="ten small-img" alt="grove">
-                <img src="pics/leaves.jpg" class="eleven small-img" alt="leaves">
-                <img src="pics/light.jpg" class="twelve small-img" alt="light">
-                <img src="pics/newyork.jpg" class="thirteen small-img" alt="new york">
-                <img src="pics/party.jpg" class="fourteen small-img" alt="party">
-                <img src="pics/rome.jpg" class="fifteen small-img" alt="rome">
-                <img src="pics/sign.jpg" class="sixteen small-img" alt="sign">
-                <img src="pics/statue.jpg" class="seventeen small-img" alt="statue">
-                <img src="pics/trail.jpg" class="eighteen small-img" alt="trail">
-                <img src="pics/tree.jpg" class="nineteen small-img" alt="tree">
+            <div class="gallery">
+                <a href="images/one.jpeg" data-lightbox="mygallery"><img src="images/oneSmall.jpeg"></a>
+                <a href="images/two.jpeg" data-lightbox="mygallery"><img src="images/twoSmall.jpeg"></a>
+                <a href="images/three.jpeg" data-lightbox="mygallery"><img src="images/threeSmall.jpeg"></a>
+                <a href="images/four.jpeg" data-lightbox="mygallery"><img src="images/fourSmall.jpeg"></a>
+                <a href="images/five.jpeg" data-lightbox="mygallery"><img src="images/fiveSmall.jpeg"></a>
+                <a href="images/six.jpg" data-lightbox="mygallery"><img src="images/sixSmall.jpg"></a>
+                <a href="images/seven.jpeg" data-lightbox="mygallery"><img src="images/sevenSmall.jpeg"></a>
+                <a href="images/eight.jpeg" data-lightbox="mygallery"><img src="images/eightSmall.jpeg"></a>
             </div>
             <article class="say-hi">
                 <h2>Say Hi & Get in touch</h2>
@@ -141,5 +130,7 @@
                 <li><a href="#">Privacy Policy</a></li>
             </ul>
         </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
     </body>
 </html>
